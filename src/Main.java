@@ -1,20 +1,17 @@
-public class BeerSong (
-        public static void main (String[] args) {
-        int beerNum = 99;
-        String word = "bottles";
-        while (beerNum > 0) I
-        if (beerNum == 1){
-            word = "bottle"; //  I Is Singular , as in ONE bottle ;
-        }
-        System.out.println(beerNum + " " + word + " of beer on the wall") ;
-        System.out.println(beerNum + " " + word + " of beer.");
-        System.out.println("Take one down.") ;
-        System.out.println( "Pass it around.") ;
-        beerNum = beerNum - 1;
-        if (beerNum > 0){
-            System.out.println(beerNum+" "+word+" of beer on The wall ");
-        }else{
-            System.out.println("No more bottles of beer on the wall")
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+        // Press Alt+Enter with your caret at the highlighted text to see how
+        // IntelliJ IDEA suggests fixing it.
+        System.out.println("Hello and welcome!");
+
+        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
+        for (int i = 1; i <= 5; i++) {
+
+            // Press Shift+F9 to start debugging your code. We have set one breakpoint
+            // for you, but you can always add more by pressing Ctrl+F8.
+            System.out.println("i = " + i);
         }
     }
 }
